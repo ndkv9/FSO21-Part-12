@@ -1,0 +1,62 @@
+Script started on 2021-12-30 14:59:52+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="130" LINES="24"]
+[0m[49m[39m[27m[24m[K
+[1A7[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m/[38;5;103mDoc[0m[38;5;103m[49m[38;5;31m/[38;5;103mS[0m[38;5;103m[49m[38;5;31m/[38;5;103md[0m[38;5;103m[49m[38;5;31m/part12-containers-applications/[1m[38;5;31m[38;5;39mscript-answers[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[?2004h[?25l8[0m[49m[39m[27m[24m[J]7;file://raputa/home/vu/Documents/Shards/devops-docker/part12-containers-applications/script-answers\]2;vu@raputa:~/Documents/Shards/devops-docker/part12-containers-applications/script-answers]1;..cript-answers[0m[38;5;31m[49m[39m[27m[24m[1m[7m%[27m[1m[0m                                                                                                                                 [0m[49m[39m[27m[24m[K[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m/Documents/Shards/devops-docker/part12-containers-applications/[1m[38;5;31m[38;5;39mscript-answers[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[48C[0m[49m[39m[48D[?1h=[?12l[?25h[?2004h[33md[39m[33md[39m[38;5;239mocker exec -it f621 sh[39m[22D[33md[33mo[39m[1m[31md[1m[31mo[1m[31mc[0m[39m[1m[31mc[1m[31mk[0m[39m[1m[31mk[1m[31me[0m[39m[0m[38;5;39md[0m[38;5;39mo[0m[38;5;39mc[0m[38;5;39mk[0m[38;5;39me[38;5;39mr[39m[39m [39mp[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [15D[38;5;239ms[39m[39ms[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m [38;5;39mdocker[39m ps[K[?12l[?25h
+]2;docker ps]1;dockerCONTAINER ID   IMAGE     COMMAND                  CREATED        STATUS         PORTS                                         NAMES
+f6210695e165   mongo     "docker-entrypoint.s…"   23 hours ago   Up 4 minutes   0.0.0.0:3456->27017/tcp, :::3456->27017/tcp   todo-backend_mongo_1
+[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://raputa/home/vu/Documents/Shards/devops-docker/part12-containers-applications/script-answers\]2;vu@raputa:~/Documents/Shards/devops-docker/part12-containers-applications/script-answers]1;..cript-answers[0m[27m[24m[J[0m[49m[39m
+[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m/[38;5;103mDoc[0m[38;5;103m[49m[38;5;31m/[38;5;103mS[0m[38;5;103m[49m[38;5;31m/[38;5;103md[0m[38;5;103m[49m[38;5;31m/part12-containers-applications/[1m[38;5;31m[38;5;39mscript-answers[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[71C[0m[49m[39m[71D[?1h=[?2004h[33md[39m[33md[39m[38;5;239mocker ps[39m[8D[33md[33mo[39m[1m[31md[1m[31mo[1m[31mc[0m[39m[1m[31mc[1m[31mk[0m[39m[1m[31mk[1m[31me[0m[39m[0m[38;5;39md[0m[38;5;39mo[0m[38;5;39mc[0m[38;5;39mk[0m[38;5;39me[38;5;39mr[39m[39m [38;5;39me[39m[39m [38;5;239mxec -it f621 sh[39m[15D[38;5;39me[38;5;39mx[39m[38;5;39mx[38;5;39me[39m[39me[39mx[39me[39mc[39m [38;5;220m-[38;5;220mi[38;5;220mt[39m[39m [39mf[39m6[39m2[39m1[39m [39ms[39mh [38;5;239mh[39m [39m [38;5;239msh[39m[39mb[39m ash[?1l>[?25l[?2004l[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m [38;5;39mdocker[39m exec [38;5;220m-it[39m f621 bash[K[?12l[?25h
+]2;docker exec -it f621 bash]1;docker]0;root@f6210695e165: /root@f6210695e165:/# mongo -u root -p example
+MongoDB shell version v5.0.5
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("0ce5bdd4-f101-44d5-9430-059f6862f57b") }
+MongoDB server version: 5.0.5
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+---
+        Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+        metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+        The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+        and anyone you share the URL with. MongoDB may use this information to make product
+        improvements and to suggest MongoDB products and deployment options to you.
+
+        To enable free monitoring, run the following command: db.enableFreeMonitoring()
+        To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+> show dbs[3G[Jshow dbs[11G
+admin         0.000GB
+config        0.000GB
+local         0.000GB
+the_database  0.000GB
+> use the_database[3G[Juse the_database[19G
+switched to db the_database
+> show collections[3G[Jshow collections[19G
+todos
+> db.todos.find({})[3G[Jdb.todos.find({})[20G
+{ "_id" : ObjectId("61cc6819fe00a0494d580504"), "text" : "Write code", "done" : true }
+{ "_id" : ObjectId("61cc6819fe00a0494d580505"), "text" : "Learn about containers", "done" : false }
+> db.todos.insertOne({te[3G[Jdb.todos.insertOne({t[24G[3G[Jdb.todos.insertOne({[23Gtext: "Increase the number of tools in my toolbelt", done: false})[3G[Jdb.todos.insertOne({text: "Increase the number of tools in my toolbelt", done: false})[89G
+{
+	"acknowledged" : true,
+	"insertedId" : ObjectId("61cdae42c76acf74abe56486")
+}
+> [3G[Jdb.todos.insertOne({text: "Increase the number of tools in my toolbelt", done: false})[89G[3G[Jdb.todos.find({})[20G[3G[Jdb.todos.find({})[20G
+{ "_id" : ObjectId("61cc6819fe00a0494d580504"), "text" : "Write code", "done" : true }
+{ "_id" : ObjectId("61cc6819fe00a0494d580505"), "text" : "Learn about containers", "done" : false }
+{ "_id" : ObjectId("61cdae42c76acf74abe56486"), "text" : "Increase the number of tools in my toolbelt", "done" : false }
+> exit[3G[Jexit[7G
+bye
+]0;root@f6210695e165: /root@f6210695e165:/# exit
+exit
+[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://raputa/home/vu/Documents/Shards/devops-docker/part12-containers-applications/script-answers\]2;vu@raputa:~/Documents/Shards/devops-docker/part12-containers-applications/script-answers]1;..cript-answers[0m[27m[24m[J[0m[49m[39m
+[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m/[38;5;103mDoc[0m[38;5;103m[49m[38;5;31m/[38;5;103mS[0m[38;5;103m[49m[38;5;31m/[38;5;103md[0m[38;5;103m[49m[38;5;31m/[38;5;103mpart1[0m[38;5;103m[49m[38;5;31m/[1m[38;5;31m[38;5;39mscript-answers[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[90C[0m[49m[38;5;101m7m 17s[0m[38;5;101m[49m[38;5;101m[0m[38;5;101m[49m[38;5;101m[0m[38;5;101m[49m[39m[96D[?1h=[?2004h[1m[31me[0m[39m[1m[31me[0m[39m[38;5;239mcho $BASH_VERSION[39m[17D[1m[31me[1m[31mi[0m[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [16D[38;5;239mxt[39m[1m[31me[1m[31mi[1m[31mx[0m[39m[1m[31mx[1m[31mt[0m[39m[?1l>[?25l[?2004l[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m [1m[31meixt[0m[39m[K[?12l[?25h
+]2;eixt]1;eixtzsh: eixt: command not found...
+[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://raputa/home/vu/Documents/Shards/devops-docker/part12-containers-applications/script-answers\]2;vu@raputa:~/Documents/Shards/devops-docker/part12-containers-applications/script-answers]1;..cript-answers[0m[27m[24m[J[0m[49m[39m
+[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m/[38;5;103mDoc[0m[38;5;103m[49m[38;5;31m/[38;5;103mS[0m[38;5;103m[49m[38;5;31m/[38;5;103md[0m[38;5;103m[49m[38;5;31m/part12-containers-applications/[1m[38;5;31m[38;5;39mscript-answers[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;196m❯[0m[38;5;196m[49m[38;5;196m[0m[38;5;196m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[71C[0m[49m[39m[71D[?1h=[?2004h[1m[31me[0m[39m[1m[31me[0m[39m[38;5;239mixt[39m[0m[38;5;39me[38;5;39mx[39m[39m [39m [38;5;239mit[39m[1m[31me[1m[31mx[1m[31mi[0m[39m[0m[38;5;93me[0m[38;5;93mx[0m[38;5;93mi[38;5;93mt[39m[?1l>[?25l[?2004l[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m [38;5;93mexit[39m[K[?12l[?25h
+]2;exit]1;exit
+Script done on 2021-12-30 15:07:37+02:00 [COMMAND_EXIT_CODE="127"]

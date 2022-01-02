@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  backend:
+    image: todo-backend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: todo-backend
+    ports:
+      - 3001:3001
+    environment:
+      - REDIS_URL=localhost:6379
